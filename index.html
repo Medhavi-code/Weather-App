@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css"> <!-- Link to external CSS -->
+  <script src="./app.js" defer></script> <!-- Link to external JavaScript -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div class="card">
+<!-- !... we will add search and weather parts next   -->
+  
+  <div class="search">
+  <input type="text" class="search-bar" placeholder="Search">
+    <button class="fa-solid fa-magnifying-glass"></button>
+  </div>
+  
+  <div class="weather loading">
+    <h2 class="city">Weather in Denver</h2>
+    <h1 class="temp">51°C</h1>
+      
+      <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+        <div class="description">cloudy</div>
+      </div>
+      <div class="humidity">Humidity: 60%</div> <!-- Humidity level -->
+      <div class="wind">Wind speed: 6.2 km/h</div> <!-- Wind speed -->
+      <div class="feels-like">Feels like: 48°C</div> <!-- Feels-like temperature -->
+      <div class="min-temp">Min Temp: 45°C</div> <!-- Minimum temperature -->
+      <div class="max-temp">Max Temp: 55°C</div> <!-- Maximum temperature -->
+      </div>
+  
+  
+  
+  
+</div>
+</body>
+</html>
