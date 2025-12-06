@@ -60,6 +60,11 @@ function displayWeather(data) {
     document.querySelector(".weather").classList.remove("loading");
 }
 
+
+
+
+
+
 // Function to initiate a search for weather based on user input
 function search() {
     const city = document.querySelector(".search-bar").value; // Get the city name from input field
